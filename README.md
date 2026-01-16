@@ -1,2 +1,5 @@
-# web-335
-Introduction to NoSQL Course
+# WEB 335 Node.js
+
+## Contributors
+* Instructor: Richard Krasso
+* Student: Jarren Bess
