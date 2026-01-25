@@ -1,0 +1,14 @@
+{
+  "customer": {
+    "_id": "123",
+    "firstName": "Matt",
+    "lastName": "Hugh",
+    "burgers": [234]
+  },
+
+  "burger": {
+    "_id": "234",
+    "burgerName": "Brisket burger",
+    "price": "11.99"
+  }
+}
