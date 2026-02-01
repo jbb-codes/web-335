@@ -3,16 +3,12 @@
     {
       "_id": "v123",
       "firstName": "John",
-      "lastName": "Doe",
-      "moviesWatched": ["m123", "m100"],
-      "moviesRated": ["m123", "m100"]
+      "lastName": "Doe"
     },
     {
       "_id": "v100",
       "firstName": "Jane",
-      "lastName": "Adams",
-      "moviesWatched": ["m123"],
-      "moviesRated": ["m123"]
+      "lastName": "Adams"
     }
   ],
 
