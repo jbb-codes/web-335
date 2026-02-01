@@ -1,0 +1,53 @@
+{
+  "viewers": [
+    {
+      "_id": "v123",
+      "firstName": "John",
+      "lastName": "Doe",
+      "moviesWatched": ["m123", "m100"],
+      "moviesRated": ["m123", "m100"]
+    },
+    {
+      "_id": "v100",
+      "firstName": "Jane",
+      "lastName": "Adams",
+      "moviesWatched": ["m123"],
+      "moviesRated": ["m123"]
+    }
+  ],
+
+  "movies": [
+    {
+      "_id": "m123",
+      "genre": "romance",
+      "movieName": "Love at first sight",
+      "ratings": [
+        {
+          "_id": "r1",
+          "ratingScore": "4",
+          "viewerId": "v123",
+          "movieId": "m123"
+        },
+        {
+          "_id": "r2",
+          "ratingScore": "4",
+          "viewerId": "v100",
+          "movieId": "m123"
+        }
+      ]
+    },
+    {
+      "_id": "m100",
+      "genre": "sports",
+      "movieName": "More than racing",
+      "ratings": [
+        {
+          "_id": "r3",
+          "ratingScore": "4",
+          "viewerId": "v123",
+          "movieId": "m100"
+        }
+      ]
+    }
+  ]
+}
