@@ -1,0 +1,21 @@
+{
+  "user": {
+    "_id": "123",
+    "firstName": "John",
+    "lastName": "Doe",
+    "device": [
+      {
+        "_id": "m1",
+        "deviceType": "iphone",
+        "deviceName": "17",
+        "charger_id": "1"
+      }
+    ]
+  },
+  "charger": {
+    "_id": "1",
+    "chargerType": "usb-c",
+    "voltage": 12,
+    "device": [{"_id": "m1"}]
+  }
+}
