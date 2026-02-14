@@ -1,0 +1,25 @@
+"""
+    Title: Bess_lemonadeStandSchedule
+    Author: Jarren Bess
+    Date: Feb 14, 2026
+    Description: Manages a weekly schedule for a lemonade stand
+"""
+
+tasks = ["shop for items", "check inventory", "create social media post advertising lemonade and hours", "prepare lemonade", "set up stand"]
+days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+
+for task in tasks:
+    print(task)
+
+print("\n")
+
+# Got help from a classmate to figure out tasks iteration using a counter
+# in order to print tasks based on the day within the current loop iteration
+i = 0
+
+for day in days:
+    if(day != "Saturday" and day != "Sunday"):
+        print(day + ": " + tasks[i])
+        i+=1
+    else:
+        print(f"{day}: It is an off day, you should rest.")
