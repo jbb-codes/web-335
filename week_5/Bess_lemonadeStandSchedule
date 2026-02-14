@@ -8,6 +8,7 @@
 tasks = ["shop for items", "check inventory", "create social media post advertising lemonade and hours", "prepare lemonade", "set up stand"]
 days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
 
+# Print the tasks within the task list.
 for task in tasks:
     print(task)
 
@@ -17,6 +18,7 @@ print("\n")
 # in order to print tasks based on the day within the current loop iteration
 i = 0
 
+# Print the task for the corresponding day, except for Saturday and Sunday, which are off days?
 for day in days:
     if(day != "Saturday" and day != "Sunday"):
         print(day + ": " + tasks[i])
