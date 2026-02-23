@@ -1,7 +1,7 @@
 // Show all students.
 db.students.find();
 
-// Insert a new student and check The document was successfully added.
+// Insert a new student and check the document was successfully added.
 db.students.insertOne({
   firstName: "Jim",
   lastName: "Smith",
