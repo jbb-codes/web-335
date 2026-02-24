@@ -44,7 +44,6 @@ print(db.users.find_one({"employeeId": "1013"}))
 # Delete the user that was created
 result = db.users.delete_one({"employeeId": "1013"})
 
-
 # Display the results of the query
 print(result)
 
