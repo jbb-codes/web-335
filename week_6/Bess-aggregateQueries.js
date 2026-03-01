@@ -23,8 +23,8 @@ db.houses.aggregate([
   {
     $lookup: {
       from: "students",
-      localField: "teamId",
-      foreignField: "teamId",
+      localField: "houseId",
+      foreignField: "houseId",
       as: "students",
     },
   },
@@ -36,8 +36,8 @@ db.houses.aggregate([
   {
     $lookup: {
       from: "students",
-      localField: "teamId",
-      foreignField: "teamId",
+      localField: "houseId",
+      foreignField: "houseId",
       as: "students",
     },
   },
@@ -49,8 +49,8 @@ db.houses.aggregate([
   {
     $lookup: {
       from: "students",
-      localField: "teamId",
-      foreignField: "teamId",
+      localField: "houseId",
+      foreignField: "houseId",
       as: "students",
     },
   },
